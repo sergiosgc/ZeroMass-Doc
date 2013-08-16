@@ -50,4 +50,4 @@ IF you use other webservers, or other distros, the configuration shouldn't be mu
 Usage
 -----
 
-Point your browser to http://zmdoc.dev/ You will be prompted for the directory of the ZeroMass project to document. ZeroMass-Doc is a ZeroMass project, so it can self-document. Try the directory ''/srv/ZeroMass-Doc'' and click Read the Docs. Then, drill down through the installed plugins and the plugins hook and PHPDoc documentation. 
+Point your browser to http://zmdoc.dev/ You will be prompted for the directory of the ZeroMass project to document. ZeroMass-Doc is a ZeroMass project, so it can self-document. Try the directory `/srv/ZeroMass-Doc` and click Read the Docs. Then, drill down through the installed plugins and the plugins hook and PHPDoc documentation. 
