@@ -199,13 +199,13 @@ class Plugin {
         foreach ($phpDoc['namespaces'] as $namespaceName => $namespaceDoc) {
             printf('<a name="namespace-%s">', $namespaceName);
             foreach ($namespaceDoc['functions'] as $functionName => $functionDoc) {
-                printf('<a name="function-%s"></a>', $functionName);
+                printf('<a name="function-%s"></a>', $namespaceName . $functionName);
                 printf('<h2>%s</h2>', $functionName);
                 printf('<div class="function-description">%s</div>', \Markdown(strtr($functionDoc['description'], array('*\\/' => '*/'))) );
                 printf('<h3>%s</h3>', __('Arguments'));
-                print('<ul>');
+                print('<ul class="list-group">');
                 foreach($functionDoc['arguments'] as $argName => $argDoc) {
-                    printf('<li>%s%s</li>', $argName, isset($argDoc['phpdoc']) ? (': ' . $argDoc['phpdoc']) : '');
+                    printf('<li class="list-group-item">%s%s</li>', $argName, isset($argDoc['phpdoc']) ? (': ' . $argDoc['phpdoc']) : '');
                 }
                 print('</ul>');
                 if (isset($functionDoc['return'])) {
@@ -221,9 +221,9 @@ class Plugin {
                 printf('<h2>%s::%s</h2>',$className, $methodName);
                 printf('<div class="method-description">%s</div>',  \Markdown(strtr($methodDoc['description'], array('*\\/' => '*/'))) );
                 printf('<h3>%s</h3>', __('Arguments'));
-                print('<ul>');
+                print('<ul class="list-group">');
                 foreach($methodDoc['arguments'] as $argName => $argDoc) {
-                    printf('<li>%s%s</li>', $argName, isset($argDoc['phpdoc']) ? (': ' . $argDoc['phpdoc']) : '');
+                    printf('<li class="list-group-item">%s%s</li>', $argName, isset($argDoc['phpdoc']) ? (': ' . $argDoc['phpdoc']) : '');
                 }
                 print('</ul>');
                 if (isset($methodDoc['return'])) {
