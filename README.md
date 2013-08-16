@@ -3,7 +3,7 @@ ZeroMass-Doc
 
 Documentation generator for ZeroMass based projects
 
-ZeroMass-Doc is a web application for vieweing the documentation extracted from the source code of ZeroMass based projects. In order to use it, you must install the app on your development webserver, where it has filesystem access to the projects being documented.
+ZeroMass-Doc is a web application for viewing the documentation extracted from the source code of ZeroMass based projects. In order to use it, you must install the app on your development webserver, where it has filesystem access to the projects being documented.
 
 Installation
 ------------
