@@ -44,3 +44,10 @@ If you are on Ubuntu, Debian or other Debian based distros, you can install ngin
     sudo apt-get install nginx php-fpm
 
 and then add the configuration above to a file in /etc/nginx/sites-enabled.
+
+IF you use other webservers, or other distros, the configuration shouldn't be much different. Try it out, then please fork this repository, add the instructions here and pull request the change. 
+
+Usage
+-----
+
+Point your browser to http://zmdoc.dev/ You will be prompted for the directory of the ZeroMass project to document. ZeroMass-Doc is a ZeroMass project, so it can self-document. Try the directory ''/srv/ZeroMass-Doc'' and click Read the Docs. Then, drill down through the installed plugins and the plugins hook and PHPDoc documentation. 
