@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="1024"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="page.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter4043"
+       inkscape:label="Blur content"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur the contents of objects, preserving the outline"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4045"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result7" />
+      <feGaussianBlur
+         id="feGaussianBlur4047"
+         result="result6"
+         stdDeviation="5" />
+      <feComposite
+         id="feComposite4049"
+         in2="result7"
+         operator="atop"
+         in="result6"
+         result="result91" />
+      <feComposite
+         id="feComposite4051"
+         in2="result91"
+         operator="in" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="510.66465"
+     inkscape:cy="786.25333"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1596"
+     inkscape:window-height="857"
+     inkscape:window-x="0"
+     inkscape:window-y="41"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid3774"
+       units="mm"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       gridanglex="60"
+       gridanglez="60" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-28.362183)">
+    <g
+       id="g4140">
+      <rect
+         y="28.362183"
+         x="0"
+         height="78"
+         width="1280"
+         id="rect4133"
+         style="fill:#f2f2f2;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="rect4135"
+         d="m 1280,106.36218 -1280,0"
+         style="fill:none;stroke:#ff0000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4129"
+       transform="matrix(0.1404941,0,0,0.1404941,8,31.505133)"
+       inkscape:export-filename="/home/sergio/Projects/Personal/Software/lms/ZeroMass-Doc/public/img/logo-header.png"
+       inkscape:export-xdpi="92.019554"
+       inkscape:export-ydpi="92.019554">
+      <path
+         id="path3853"
+         d="m 68.843749,63.04215 -7.71875,87.375 9.21875,0 c 2.157631,-13.27774 4.815166,-24.21276 7.96875,-32.84375 3.153466,-8.79638 7.712334,-15.70794 13.6875,-20.6875 5.975037,-5.14491 13.275461,-8.69547 21.906251,-10.6875 8.79659,-2.15735 19.56356,-3.24967 32.34375,-3.25 l 73.46875,0 33.84375,0 61.9375,0 14,-19.90625 -260.656251,0 z m 174.468751,34.5 -195.187501,277.7813 61.625001,0 195.46875,-277.7813 -61.90625,0 z m -205.437501,292.375 -1.4375,2.0625 63.03125,-2.0625 -61.59375,0 z"
+         style="font-size:474.0737915px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Aboriginal Serif;-inkscape-font-specification:Aboriginal Serif"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3861"
+         d="m 99.460575,389.92485 140.165975,0 c 8.79646,0 17.26117,-1.7427 25.39419,-5.2282 8.29851,-3.6515 15.93335,-8.7137 22.90457,-15.1868 6.97067,-6.473 13.19474,-13.94182 18.6722,-22.40661 5.64286,-8.46466 10.37314,-17.84224 14.19087,-28.13278 l 9.21162,0 -16.43154,90.87139 -283.56846,0 0,-8.7137 7.838471,-11.1554"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccccccccc"
+         style="font-size:474.0737915px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;filter:url(#filter4043);font-family:Aboriginal Serif;-inkscape-font-specification:Aboriginal Serif" />
+    </g>
+    <rect
+       y="-1052.3623"
+       x="-1282.5"
+       height="193.78882"
+       width="1280"
+       id="rect4146"
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       transform="scale(-1,-1)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4148"
+       d="m 2.5,858.57343 1280,0"
+       style="fill:none;stroke:#ff0000;stroke-width:7.88110399;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>

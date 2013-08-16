@@ -1,0 +1,89 @@
+a,
+a:hover,
+a:focus,
+a:visited ,
+a.list-group-item,
+a.list-group-item:hover,
+a.list-group-item:focus,
+a.list-group-item:visited {
+    color: #025167;
+}
+h1 {
+    color: #A60000;
+}
+h2 {
+    color: #407a00;
+}
+div.navbar-static-top {
+    background-color: #f2f2f2;
+    border-bottom: 3px solid #057D9F;
+    background-image: url('/img/logo-header.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+a.navbar-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 9px;
+}
+div.navbar-static-top ul.nav {
+    margin-top: 20px;
+}
+div.navbar-static-top form {
+    margin-top: 20px;
+    position: relative;
+}
+#search-icon {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+#footer {
+    background-color: #333333;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+body > .container {
+    padding-bottom: 20px;
+}
+body > .container > .wrapper > .content-toc {
+    min-height: 500px;
+}
+
+.content-toc {
+    border-right: 1px solid #057D9F;
+}
+
+.breadcrumb {
+    background-color: #d7eef4;
+    position: relative; 
+    top: -20px;
+}
+
+.breadcrumb a:hover ,
+.breadcrumb a:focus ,
+.breadcrumb a:visited ,
+.breadcrumb a {
+    color: #01313e;
+}
+
+#phpdoc-toc span.class-summary ,
+#phpdoc-toc span.method-summary ,
+a.list-group-item span.hook-summary {
+    color: #333333;
+}
+
+#hookdoc-toc {
+    margin-bottom: 100px;
+}
+
+ul#phpdoc-toc > li > ul {
+    margin-left: 30px;
+}

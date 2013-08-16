@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+ __title__
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <style>
+ __extracss__
+    </style>
+ __head__
+  </head>
+  <body>
+   <!-- Static navbar -->
+    <div class="navbar navbar-static-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">ZeroMassDoc</a>
+        <form class="form-inline pull-right" role="form">
+          <div class="form-group">
+            <span id="search-icon" class="glyphicon glyphicon-search pull-right"></span>
+            <input type="search" class="form-control" id="search" placeholder="Search docs">
+          </div>
+        </form>
+      </div>
+    </div>
+
+ __breadcrumbs__
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
+        <div class="wrapper row">
+              <div class="content-toc col-md-3">
+ __toc__
+              </div>
+              <div class="content-main col-md-9">
+ __default__
+              </div>
+        </div>
+    </div> <!-- /container -->
+    <div id="footer">
+        <div class="container">
+            <p>&copy; 2013 Sérgio Carvalho</p>
+            <iframe src="http://ghbtns.com/github-btn.html?user=sergiosgc&repo=ZeroMass-Doc&type=fork"
+                  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+            <iframe src="http://ghbtns.com/github-btn.html?user=sergiosgc&repo=ZeroMass-Doc&type=watch"
+                  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+            <iframe src="http://ghbtns.com/github-btn.html?user=sergiosgc&repo=ZeroMass-Doc&type=follow"
+                  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+ __footer__
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <!-- <script src="js/respond.js"></script> -->
+  </body>
+</html>
